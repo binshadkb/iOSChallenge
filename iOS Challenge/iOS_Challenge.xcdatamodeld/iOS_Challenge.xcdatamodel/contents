@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21G115" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PlanetEntity" representedClassName="PlanetEntity" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="climate" optional="YES" attributeType="String"/>
+        <attribute name="created" optional="YES" attributeType="String"/>
+        <attribute name="diameter" optional="YES" attributeType="String"/>
+        <attribute name="edited" optional="YES" attributeType="String"/>
+        <attribute name="films" optional="YES" attributeType="Transformable"/>
+        <attribute name="gravity" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="orbitalPeriod" optional="YES" attributeType="String"/>
+        <attribute name="population" optional="YES" attributeType="String"/>
+        <attribute name="residents" optional="YES" attributeType="Transformable"/>
+        <attribute name="rotationPeriod" optional="YES" attributeType="String"/>
+        <attribute name="surfaceWater" optional="YES" attributeType="String"/>
+        <attribute name="terrain" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlanetModelEnitity" representedClassName="PlanetModelEnitity" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="count" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="next" optional="YES" attributeType="String"/>
+        <attribute name="planets" optional="YES" attributeType="Transformable" valueTransformerName=""/>
+        <attribute name="previous" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="PlanetModelEnitity" positionX="-63.51202392578125" positionY="-20.02407836914062" width="150.951904296875" height="103"/>
+        <element name="PlanetEntity" positionX="173.7609252929688" positionY="-5.622039794921875" width="128" height="268"/>
+    </elements>
+</model>
